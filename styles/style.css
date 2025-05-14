@@ -19,7 +19,7 @@ nav {
 }
 
 .hero {
-   background-image: url("../images/asset\ 0.jpeg");
+   background-image: url("../images/asset0.jpeg");
    height: 100vh;
    background-size: cover;
    display: flex;
@@ -82,7 +82,7 @@ nav {
    flex-direction: row;
    justify-content: space-between;
    align-items: center;
-   width: 27%;
+   width: 32%;
    margin-bottom: 35px;
 }
 
