@@ -1,3 +1,7 @@
+ // Declare a variable to store navbar element 
+ const navElement  = document.getElementById('navbar');
+ 
+ 
  const roles = ["A Web Developer", "A UI/UX Designer", "A Graphic Designer", "A Video Editor"];
   const typewriterElement = document.getElementById("typewriter");
 
@@ -37,10 +41,10 @@
     // console.log(window.scrollY);
     if(window.scrollY > 70){
       // change navbar bg to blue
-      document.getElementById('navbar').style.backgroundColor = '#0979E4';
+      navElement.style.backgroundColor = '#0979E4';
     }else{
       // change navbar bg to transparent
-            document.getElementById('navbar').style.backgroundColor = 'transparent';
+            navElement.style.backgroundColor = 'transparent';
     }
 
 });
